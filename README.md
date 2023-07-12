@@ -22,4 +22,6 @@ Os ids do imdb podem ser obtidos através do script `obter_id_imdb.py`, que util
 ## Utilização do script para obter os ids
 Para obter os ids a partir do site do imdb é necessário criar um arquivo .csv com os nomes dos filmes do qual se deseja obter a informação. A localização padrão do arquivo com os filmes é `files/filmes.csv`. Após a execução do script será gerado um novo arquivo, com o nome de `files/id_filmes.csv`.
 
-**Obs**: Como exemplo de uso, foi deixado salvo os arquivos "filmes.csv", "id_filmes.csv" e a planilha preenchida a partir dos ids gerado pelo script.
+**Obs**:
+- Como exemplo de uso, foi deixado salvo os arquivos "filmes.csv", "id_filmes.csv" e a planilha preenchida a partir dos ids gerado pelo script.
+- Ao abrir o arquivo `id_filmes.csv` pelo excel, o mesmo modifica os valores dos ids retirando os zeros à esquerda. Para evitar isso, abra esse arquivo pelo bloco de notas.

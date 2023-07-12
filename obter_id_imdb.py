@@ -23,10 +23,8 @@ class movie:
         self.nome = nome
 
     def url_busca(self) -> str:
-        valor = ""
         nome = self.nome.split(" ")
-        for i in range(0, len(nome)):
-            valor += "+" + nome[i]
+        valor = '+'.join(nome)
         return f"https://www.google.com.br/search?as_sitesearch=imdb.com&q={valor}"
 
     def obter_id(self) -> str | None:
